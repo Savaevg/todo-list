@@ -1,0 +1,65 @@
+
+  .header {
+    height: 100px;
+    background:linear-gradient(66deg, #1535bf, #e38010);
+    position: relative;
+    border:10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
+  }
+  .but svg {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    right: 25px;
+    bottom: -25px;
+    cursor: pointer;
+  }
+
+  .background {
+    background-color: white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 29px;
+    bottom: -13px;
+    border-radius: 5px;
+  }
+
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    padding: 20px 30px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.date {
+  padding-right: 50px;
+}
+.finish {
+    font-size: 45px;
+    color: white;
+}
+.total {
+    display: flex;
+    flex-direction:column;
+    color: white;
+    font-size: 20px;
+}
+.weekday {
+    color: white;
+    font-size: 40px;
+}
+.date {
+    color: white;
+    font-size: 40px;
+    margin-left: 10px;
+}

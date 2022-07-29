@@ -1,0 +1,5 @@
+
+.todo-finished {
+    text-decoration: line-through;
+    color:rgba(3, 3, 3, 0.377) ;
+}
